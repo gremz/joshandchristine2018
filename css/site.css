@@ -108,7 +108,7 @@ h2 {
  * I want my pure-button elements to look a little different
  */
 .pure-button {
-    background-color: #FF7F50;
+    background-color: #ffb296;
     color: white;
     padding: 0.7em 2em;
     border-radius: 20px;
@@ -117,7 +117,7 @@ h2 {
 
 a.pure-button-primary {
     background: white;
-    color: #FF7F50;
+    color: #ffb296;
     border-radius: 5px;
     font-size: 120%;
 }
@@ -190,7 +190,7 @@ a.pure-button-primary {
 
 .splash-container {
     background: rgba(28,13,10,.75); /* use with image */
-    background: #AAF0D1;
+    /*background: #AAF0D1;*/
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
@@ -202,7 +202,7 @@ a.pure-button-primary {
 }
 
 .splash-img-container {
-    /*background: url('../img/10.jpg') center center no-repeat;*/
+    background: url('../img/12.jpg') center center no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -334,7 +334,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #FF7F50;
+    color: #ffb296;
     text-transform: uppercase;
     margin-bottom: 0; 
 }
@@ -447,6 +447,11 @@ a.pure-button-primary {
     .splash {
         /*width: 70%;
         height: 50%;*/
+    }
+
+    .splash-img-container {
+        background: url('../img/11.jpg') center center no-repeat;
+        background-size: cover;
     }
 
     .splash-head,
